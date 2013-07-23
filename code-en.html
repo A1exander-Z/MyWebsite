@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Alexander Zakharov's website - programming</title>
+  </head>
+  <body>
+    <div id="upper"></div>
+    <div id="lower">
+      <h1 class="home"><a href="index-en.html" class="main-header">Alexander Zakharov's website</a></h1>
+    </div>
+    <div id="menu">
+      <a href="cv-en.html" class="menu-ref"><span class="menu-item">Curriculum Vitae</span></a>
+      <span class="menu-item-selected">Programming</span>
+      <a href="science-en.html" class="menu-ref"><span class="menu-item">Science</span></a>
+      <a href="code.html" class="menu-ref"><span class="menu-item-lang">RU</span></a>
+    </div>
+    <p>I have been writing computer programs for more than 20 years, beginning with ZX Spectrum (Sinclair BASIC and Z80 machine code) and followed by Borland Pascal on PC. In the mid-1990s I mastered Object Pascal/Delphi, in which I wrote my first major projects, and in the beginning of 2000s I became interested in other languages, mainly C/C++ and Python, which became my primary development tools. Among my interests are high-performance computations and machine learning, including neural networks.</p>
+    <h3>Major skills and knowledge</h3>
+    <ul>
+      <li>C++ (with STL), C, Python programming languages (development experience of more than 8 years)</li>
+      <li>Good knowledge of OOP principles (usage in C++, Python, Object Pascal/Delphi, development experience of more than 10 years)</li>
+      <li>Knowledge of fundamental algorithms and data structures</li>
+      <li>Experience with development of software for processing large amounts of numerical data</li>
+      <li>Advanced knowledge of English language</li>
+    </ul>
+    <h3>Additional skills and knowledge</h3>
+    <ul>
+      <li>Basic knowledge of Java, Scala and C# languages</li>
+      <li>Elementary understanding of relational databases, SQL, XML </li>
+      <li>Basic knowledge of HTML, CSS</li>
+      <li>Understanding of functional programming paradigm</li>
+      <li>Basic knowledge of version control systems, experience with Git</li>
+      <li>Object Pascal/Delphi development experience (outdated, not used for 10 years)</li>
+      <li>Experience with cross-platform development for Linux and Windows, including usage of Qt and wxWidgets libraries</li>
+    </ul>
+    <h3><a href="https://www.coursera.org">Coursera</a> <a name="courses">courses</a> (<a href="https://www.coursera.org/user/i/674c9f935be153166c8f24bb3f696ba8">profile</a>)</h3>
+    <ul>
+      <li><a href="https://www.coursera.org/course/neuralnets">Neural Networks for Machine Learning</a> (University of Toronto), 93.3% grade (<a href="files/Certificate_NN.pdf">statement of accomplishment</a>)</li>
+      <li><a href="https://www.coursera.org/course/crypto">Cryptography I</a> (Stanford University), 100% grade (<a href="files/Certificate_Crypto-I.pdf">statement of accomplishment</a>)</li>
+      <li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis, Part 1</a> (Stanford University), 100% grade (<a href="files/Certificate_Algo-I.pdf">statement of accomplishment</a>)</li>
+      <li><a href="https://www.coursera.org/course/db">Introduction to Databases</a> (Stanford University), 94.9% grade (<a href="files/A1exander_Z-75930-db--Winter2013-distinction.pdf">statement of accomplishment</a> from Class2Go)</li>
+      <li><a href="https://www.coursera.org/course/progfun">Functional Programming Principles in Scala</a> (École Polytechnique Fédérale de Lausanne), 100% grade (<a href="files/Certificate_Scala.pdf">statement of accomplishment</a>)</li>
+      <li><a href="https://www.coursera.org/course/ml">Machine Learning</a> (Stanford University), 100% grade (statement pending)</li>
+    </ul>
+    <h3><a name="projects">Projects</a></h3>
+    <p><b>MDVibCor</b> – a program for computing vibrational corrections for gas-phase electron diffraction using molecular dynamics data. Written in C++ with the usage of STL and <a href="http://www.gnu.org/software/gsl/">GSL</a> (console application for Linux and Windows). The initial development was in Edinburgh in 2008 (method description is published in [<a href="science-en.html#MD">13</a>]), then in Bielefeld (see ref. [<a href="science-en.html#MD-2">1</a>]). In 2013 the project has been placed on GitHub (<a href="https://github.com/A1exander-Z/MDVibCor">project page</a>) under GPLv3 license.</p>
+    <p><b>Z<sup>2</sup>IDP</b> – a program for data reduction of gas-phase electron diffraction images obtained by scanning diffraction patterns. Written in C++ with the use of Qt (Linux and Windows versions). Method description is given in ref. [<a href="science-en.html#IDP-2">5</a>, <a href="science-en.html#IDP-1">10</a>]). Previous variants of this software, XIDP (C++ and wxWidgets, Linux and Windows versions) and IDP (Delphi, Windows) were designed for processing data from the MD-100 microdensitometer (method description can be found in ref. [<a href="science-en.html#100-2">20</a>]).</p>
+    <p><b>A set of utilities</b> for simplifying computations of vibrational corrections using the SHRINK program (Q2SHRINK – input file generation, SHREx – data extraction from output files, ExPED – extraction of potential energy distributions). Written in Python, the description is in ref. [<a href="science-en.html#SHR">12</a>].</p>
+    <p><b>Personal website</b>, which you are reading (HTML, CSS3)</p>
+    <p><b>MD100</b> – A program for control and data acquisition for the MD-100 automated microdensitometer. Written in Borland Pascal, has been used for scanning diffraction patterns in the <a href="http://main.isuct.ru/ru/niitik/ediffraction">ISUCT laboratory of gas-phase electron diffraction</a> for 15 years. The description of the microdensitometer and the technique is published in [<a href="science.html#100-2">20</a>, <a href="science.html#100-1">28</a>]. It became obsolete due to transition to scanning diffraction patterns using a commercial scanner.</p>
+    <p><b>AZ's Book Reader</b> – a program for reading e-books (probably one of the first). It waswritten in 1997 in Delphi, distributed as freeware, and supported only ASCII texts (in several encodings) and working with archives (mainly for texts distributed through Fido newsgroups). It became completely obsolete with the appearance of CoolReader, FBReader, FictionBook format, etc., the last version was released in 2000. Curiously enough, it is still available for downloading in the Internet.</p>
+  </body>
+</html>
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Веб-сайт Александра Захарова - программирование</title>
+  </head>
+  <body>
+    <div id="upper"></div>
+    <div id="lower">
+      <h1 class="home"><a href="index.html" class="main-header">Веб-сайт Александра Захарова</a></h1>
+    </div>
+    <div id="menu">
+      <a href="cv.html" class="menu-ref"><span class="menu-item">Резюме</span></a>
+      <span class="menu-item-selected">Программирование</span>
+      <a href="science.html" class="menu-ref"><span class="menu-item">Наука</span></a>
+      <a href="code-en.html" class="menu-ref"><span class="menu-item-lang">EN</span></a>
+    </div>
+    <p>Я пишу программы уже более 20 лет, начав с ZX Spectrum (Sinclair BASIC и машинные коды Z80), а затем перейдя к Borland Pascal на PC. В середине 90-х я освоил Object Pascal/Delphi, на котором написаны мои первые серьезные проекты, а в начале 2000-х заинтересовался другими языками, в первую очередь C/C++ и Python, которые и стали моими основными средствами разработки. Среди моих интересов – высокопроизводительные вычисления и машинное обучение, в том числе нейронные сети.</p>
+    <h3>Основные навыки</h3>
+    <ul>
+      <li>Языки программирования C++ (с использованием STL), C, Python (опыт разработки более 8 лет)</li>
+      <li>Хорошее знание ООП (использование в C++, Python, Object Pascal/Delphi, опыт разработки более 10 лет)</li>
+      <li>Знание фундаментальных алгоритмов и структур данных</li>
+      <li>Опыт разработки программ для обработки больших объемов численных данных</li>
+      <li>Свободное владение английским языком</li>
+    </ul>
+    <h3>Дополнительные навыки</h3>
+    <ul>
+      <li>Базовые знания языков Java, Scala, C#</li>
+      <li>Начальные представления о реляционных базах данных, SQL, XML</li>
+      <li>Базовые знания HTML, CSS</li>
+      <li>Представление о функциональной парадигме программирования</li>
+      <li>Базовые знания систем контроля версий, опыт работы с Git</li>
+      <li>Опыт разработки на Object Pascal/Delphi (устарел, не использовался 10 лет)</li>
+      <li>Опыт кросс-платформенной разработки для Linux и Windows, в т.ч. с использованием библиотек Qt и wxWidgets</li>
+    </ul>
+    <h3><a name="courses">Курсы</a> <a href="https://www.coursera.org">Coursera</a> (<a href="https://www.coursera.org/user/i/674c9f935be153166c8f24bb3f696ba8">профиль</a>)</h3>
+    <ul>
+      <li><a href="https://www.coursera.org/course/neuralnets">Neural Networks for Machine Learning</a> (University of Toronto), оценка 93,3% (<a href="files/Certificate_NN.pdf">сертификат</a>)</li>
+      <li><a href="https://www.coursera.org/course/crypto">Cryptography I</a> (Stanford University), оценка 100% (<a href="files/Certificate_Crypto-I.pdf">сертификат</a>)</li>
+      <li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis, Part 1</a> (Stanford University), оценка 100% (<a href="files/Certificate_Algo-I.pdf">сертификат</a>)</li>
+      <li><a href="https://www.coursera.org/course/db">Introduction to Databases</a> (Stanford University), оценка 94,9% (<a href="files/A1exander_Z-75930-db--Winter2013-distinction.pdf">сертификат</a> Class2Go)</li>
+      <li><a href="https://www.coursera.org/course/progfun">Functional Programming Principles in Scala</a> (École Polytechnique Fédérale de Lausanne), оценка 100% (<a href="files/Certificate_Scala.pdf">сертификат</a>)</li>
+      <li><a href="https://www.coursera.org/course/ml">Machine Learning</a> (Stanford University), оценка 100% (сертификат ожидается)</li>
+    </ul>
+    <h3><a name="projects">Проекты</a></h3>
+    <p><b>MDVibCor</b> – программа для расчетов колебательных поправок для газовой электронографии по данным молекулярной динамики. Написана на C++ с использованием STL и <a href="http://www.gnu.org/software/gsl/">GSL</a> (консольное приложение для Linux и Windows). Первоначальная разработка велась в Эдинбурге в 2008 г. (описание методики опубликовано в [<a href="science.html#MD">13</a>]), затем в Билефельде (см. работу [<a href="science.html#MD-2">1</a>]). В 2013 г. проект размещен на GitHub (<a href="https://github.com/A1exander-Z/MDVibCor">страница проекта</a>) под лицензией GPLv3.</p>
+    <p><b>Z<sup>2</sup>IDP</b> – программа первичной обработки электронографических данных, полученных при сканировании электронограмм. Написана на C++ с использованием Qt (версии для Linux и Windows). Описание методики приведено в работах [<a href="science.html#IDP-2">5</a>, <a href="science.html#IDP-1">10</a>]). Предыдущие варианты данной программы, XIDP (C++ и wxWidgets, версии для Linux и Windows) и IDP (Delphi, Windows) были предназначены для обработки данных с микроденситометра MD-100 (описание методики см. в [<a href="science.html#100-2">20</a>]).</p>
+    <p><b>Набор программ</b> для облегчения расчета колебательных поправок с помощью программы SHRINK (Q2SHRINK – генерация входных файлов, SHREx – извлечение данных из выходных файлов, ExPED – извлечение распределения потенциальной энергии). Написаны на Python, описание см. в [<a href="science.html#SHR">12</a>].</p>
+    <p><b>Персональный сайт</b>, который вы сейчас читаете (HTML, CSS3)</p>
+    <p><b>MD100</b> – программа управления и сбора данных для автоматизированного микроденситометра MD-100. Написана на Borland Pascal под MS-DOS, использовалась для фотометрирования электронограмм в <a href="http://main.isuct.ru/ru/niitik/ediffraction">лаборатории газовой электронографии ИГХТУ</a> в течение 15 лет. Описание микроденситометра и методики опубликовано в работах [<a href="science.html#100-2">20</a>, <a href="science.html#100-1">28</a>]). Устарела в связи с переходом на сканирование электронограмм.</p>
+    <p><b>AZ's Book Reader</b> – программа для чтения книг с экрана компьютера (вероятно, одна из первых). Написана в 1997 г. на Delphi, распространялась как freeware, поддерживала только тексты в формате ASCII (в различных кодировках) и работу с архивами (в первую очередь, для текстов, распространявшихся через эхоконференции Fido). C появлением CoolReader, FBReader, формата FictionBook и т.д. полностью устарела, последняя версия относится к 2000 г. Как ни странно, до сих пор доступна для скачивания в Интернете.</p>
+  </body>
+</html>
+
